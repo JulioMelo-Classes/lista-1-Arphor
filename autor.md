@@ -2,8 +2,8 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\Gabriel Ikaro Fonseca de Paiva*
-- Email: *\gabrielpaiva18@gmail.com*
+- Nome: *Gabriel Ikaro Fonseca de Paiva*
+- Email: *gabrielpaiva18@gmail.com*
 - Turma: *\<insira sua turma aqui>*
 
 # Questões Finalizadas
