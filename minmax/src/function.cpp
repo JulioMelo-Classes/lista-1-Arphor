@@ -12,8 +12,25 @@
 
 std::pair<int,int> min_max( int V[], size_t n )
 {
-    // TODO: Adicione aqui sua solução.
+    int max=V[0];
+    int min=V[0];
+    int max_place = -1;
+    int min_place = -1;
 
-    // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-    return { -1, -1 };
+
+    for(auto x=0; x<n; x++){
+        if(V[x]<min || x==0){
+            min_place = x;
+            min = V[x];
+        }
+    }
+    for(auto y=0; y<n; y++){
+        if(V[y]>=max){
+            max_place = y;
+            max = V[y];
+        }
+    }
+
+
+    return { min_place, max_place };
 }

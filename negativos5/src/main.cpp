@@ -6,7 +6,22 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int x;
+    int y;
+    int count=0;
+
+    for(y=0; y<SIZE; y++){
+
+        std::cin >> x;
+
+        if ( x<0 ){
+            count++;
+        }
+    }
+
+    std::cout << count << std::endl;
+
+    return 0;
 
     return 0;
 }

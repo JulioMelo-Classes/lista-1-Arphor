@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\build\CMakeFiles\d40a49496fe3ce0b35aa5adba5745d7f\run_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\build\CMakeFiles\run_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CF7D7644-E846-3A67-B92D-42323DF9A5AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

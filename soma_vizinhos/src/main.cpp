@@ -10,7 +10,40 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+    int x, y, out;
+
+    while(std::cin >> x){
+        std::cin >> y;
+
+        out = x;
+
+        if(y==0){
+            std::cout << out << std::endl;
+            
+        }
+        else{
+            if(y>0){
+                y--;
+                while(y>0){
+
+                    x++;
+                    y--;
+
+                    out = out + x; 
+                }
+            }
+            else{
+                y++;
+                while(y<0){
+                    x--;
+                    y++;
+                    out = out + x;
+                }
+            }
+
+            std::cout << out << std::endl;
+        }
+    }
 
     return 0;
 }

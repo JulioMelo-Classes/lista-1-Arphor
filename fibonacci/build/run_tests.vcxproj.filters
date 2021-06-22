@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\fibonacci\build\CMakeFiles\45c4c790ee3aebd885ccb84c5451bcbe\run_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\fibonacci\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\fibonacci\build\CMakeFiles\run_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DEFC6523-09FA-3D03-BB35-450F094783B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

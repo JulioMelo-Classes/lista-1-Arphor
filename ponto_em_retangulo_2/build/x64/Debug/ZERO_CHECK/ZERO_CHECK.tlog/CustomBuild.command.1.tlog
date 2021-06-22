@@ -1,0 +1,10 @@
+^C:\USERS\GABRIEL\DESKTOP\LISTA-1-ARPHOR-MASTER\PONTO_EM_RETANGULO_2\BUILD\CMAKEFILES\B48668E485768D6FD9BEC8DB6035382B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Desktop/lista-1-Arphor-master/ponto_em_retangulo_2 -BC:/Users/Gabriel/Desktop/lista-1-Arphor-master/ponto_em_retangulo_2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gabriel/Desktop/lista-1-Arphor-master/ponto_em_retangulo_2/build/Retangulo2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

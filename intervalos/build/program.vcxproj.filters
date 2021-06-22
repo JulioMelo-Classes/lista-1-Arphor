@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\intervalos\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\intervalos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E4CF586-F9F8-3A15-BD52-2E4DC8408F23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

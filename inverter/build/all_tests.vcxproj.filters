@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\tests\lib\test_manager\src\test_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\tests\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabriel\Desktop\lista-1-Arphor-master\inverter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{406F110A-CF85-38E3-A7B8-CE93FA91CEDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

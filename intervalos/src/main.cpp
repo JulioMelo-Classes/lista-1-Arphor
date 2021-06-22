@@ -15,7 +15,45 @@ using std::setprecision;
 
 int main(void)
 {
-    // TODO: Adicione aqui a sua solução.
+    int x;
+    double count[5]= {0};
+    double count_total=0;
+
+
+    while(cin >> std::ws >> x){
+        count_total++;
+
+        if(x<0 || x>=100){
+            count[4]++;
+        }
+        else{
+            if(x<25){
+                count[0]++;
+            }
+            else{
+                if(x<50){
+                    count[1]++;
+                }
+                else{
+                    if(x<75){
+                        count[2]++;
+                    }
+                    else{
+                        count[3]++;
+                    }
+                }
+            }
+        }
+    }
+
+    double percentage[5] = {0};
+    
+    for(int y=0; y<5; y++){
+        percentage[y] = (count[y]/count_total)*100;
+        std::cout << std::setprecision(4) << percentage[y] << std::endl;
+
+    }
+
 
     return 0;
 }

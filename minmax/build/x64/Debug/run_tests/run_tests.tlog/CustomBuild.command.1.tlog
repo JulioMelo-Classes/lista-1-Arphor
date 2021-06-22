@@ -1,0 +1,20 @@
+^C:\USERS\GABRIEL\DESKTOP\LISTA-1-ARPHOR-MASTER\MINMAX\BUILD\CMAKEFILES\1B4805C48AB91638E2321417B4F17A33\RUN_TESTS.RULE
+setlocal
+Debug\all_tests.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GABRIEL\DESKTOP\LISTA-1-ARPHOR-MASTER\MINMAX\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabriel/Desktop/lista-1-Arphor-master/minmax -BC:/Users/Gabriel/Desktop/lista-1-Arphor-master/minmax/build --check-stamp-file C:/Users/Gabriel/Desktop/lista-1-Arphor-master/minmax/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
