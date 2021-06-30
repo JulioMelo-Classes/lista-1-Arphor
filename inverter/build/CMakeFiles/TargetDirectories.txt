@@ -1,5 +1,0 @@
-C:/Users/Gabriel/Desktop/lista-1-Arphor-master/inverter/build/CMakeFiles/func.dir
-C:/Users/Gabriel/Desktop/lista-1-Arphor-master/inverter/build/CMakeFiles/all_tests.dir
-C:/Users/Gabriel/Desktop/lista-1-Arphor-master/inverter/build/CMakeFiles/run_tests.dir
-C:/Users/Gabriel/Desktop/lista-1-Arphor-master/inverter/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Gabriel/Desktop/lista-1-Arphor-master/inverter/build/CMakeFiles/ZERO_CHECK.dir

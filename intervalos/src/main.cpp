@@ -13,6 +13,9 @@ using std::setprecision;
 
 // Se desejar, crie funções aqui, antes do main().
 
+/*
+ok
+*/
 int main(void)
 {
     int x;
@@ -26,7 +29,7 @@ int main(void)
         if(x<0 || x>=100){
             count[4]++;
         }
-        else{
+        else{ //gostei da ideia de fazer assim, embora não seja uma boa para monitores pequenos =)
             if(x<25){
                 count[0]++;
             }
